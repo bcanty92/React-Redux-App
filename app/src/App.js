@@ -1,19 +1,10 @@
-import React from "react";
-import "./App.css";
-import Card from "./components/Card";
-import CardList from "./components/CardList";
+import React from 'react';
+import './App.css';
+import Jokes from './components/Jokes'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Pokemon</h1>
-
-        <Card />
-        <br />
-        <CardList />
-      </header>
-    </div>
+    <Jokes />
   );
 }
 
